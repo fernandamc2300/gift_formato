@@ -242,8 +242,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   body::before {
     content: ''; position: fixed; inset: 0;
     background-image:
-      linear-gradient(rgba(124,255,212,.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(124,255,212,.03) 1px, transparent 1px);
+      linear-gradient(rgba(12, 192, 132, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(50, 226, 168, 0.03) 1px, transparent 1px);
     background-size: 40px 40px; pointer-events: none; z-index: 0;
   }
   body::after {
@@ -374,15 +374,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div id="file-name"></div>
       </div>
 
-      <div class="tip">
-        💡 <strong>¿Cómo marcar la respuesta correcta?</strong><br>
-        Agrega una <code>C</code> al final de la opción correcta en tu documento Word.<br><br>
-        <strong>Ejemplos válidos:</strong><br>
-        <code>o &nbsp;Asegurar un flujo organizado y seguro C</code><br>
-        <code>o &nbsp;Verdadero C</code><br>
-        <code>o &nbsp;Falso C</code><br><br>
-        El sistema quita la <code>C</code> automáticamente del texto final.
-      </div>
+
 
       <button type="submit" class="btn">⚡ Convertir a GIFT</button>
     </form>
